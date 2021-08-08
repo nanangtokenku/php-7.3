@@ -8,7 +8,8 @@ $(document).ready(function(){
 
 function login(){
 	$.ajax({
-		url : base_url+"../php/functions/Auth.php",
+		//url : base_url+"../php/functions/Auth.php",
+		url : base_url+"../token/src/server/doGetToken.php",
 		type: "post",
 		data: {
 			cmd:"login",
