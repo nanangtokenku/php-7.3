@@ -1,5 +1,5 @@
 <?php
 
-    $db = new MysqliDb ('localhost', 'root', '', 'php7') or die("unhost");
+    $db = new MysqliDb ('localhost', 'root', '99', 'php7') or die("unhost");
   
     ?>
